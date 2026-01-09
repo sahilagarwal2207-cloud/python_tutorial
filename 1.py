@@ -7,8 +7,18 @@ def person():
     else:
             print("You are a senior citizen.")
             
+            
+            
+            
+def CheckEvenOdd():
+    num=int(input("Enter a number: "))
+    if num%2==0:
+        print(f"{num} is even.")
+    else:
+        print(f"{num} is odd.") 
+            
 def main():
     person()
-                    
+    CheckEvenOdd()      
 if __name__=="__main__":
     main()
